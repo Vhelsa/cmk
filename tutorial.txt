@@ -1,0 +1,35 @@
+#login vps
+
+ssh username@ip_vps
+
+#install package
+sudo apt update
+sudo apt install python3 python3-pip
+pip3 install telethon colorama aiolimiter
+
+#upload source ke github pribadi kosong
+1. kamu bisa buat akun di github.com
+2. klik new di dekat new repostori
+3. kasih nama bebas
+4. tidak di privat!!! maka dri itu pke akun github kosongan agar tidak tampil / tidak mudah di akses public karna tidak masuk search engine
+5. klik new respostori
+6. ke repostori
+7. klik tanda + , klik new file
+8. kasih nama file jadi "main.py" & copas file main.py ke situ.
+9. lanjut dan klik done / commit
+10. sama seperti no 7,  klik new file dan kasih nama file accj.json dan isi "{}" seperti ini saja lalu commit
+11. sama seperti no 7, klik new file dan kasih nama file "invite_tool_logs.txt" dan gausah ksih nama apapun dan lanjut commit
+
+copy link repostori 
+
+#ke vps
+pkg install git
+git clone (url github tdi)
+cd ( nama repostorinya )
+python3 main.py
+
+DONE!! ikutin step by step di situ.
+
+#PAS API ID DAN API HASH ITU SAYA KIRIM DI TELEGRAM KAMU!
+
+programmed by @hiyaok on telegram.
